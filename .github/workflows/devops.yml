@@ -6,7 +6,9 @@ jobs:
 	code:
 		runs-on: ubuntu-latest
 		steps:
-			run: echo "Code"		
+		  -name: Run code step
+			 run: echo "Code"		
+			 
 	#build:
 		
 	#test:
